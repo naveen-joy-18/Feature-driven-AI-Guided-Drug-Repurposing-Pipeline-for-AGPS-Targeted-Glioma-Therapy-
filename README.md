@@ -55,16 +55,7 @@ Includes entropy correction and solvation estimation.
 Command-line interface for batch prediction from MD trajectories.
 
 Usage:
-
 python prediction.py \
-  --topology_file complex.gro \
-  --trajectory_dir traj.xtc \
-  --model_path hybrid_model.pth \
-  --frame_limit 100 \
-  --temperature 298 \
-  --excel_output binding_energies.xlsx \
-  --plot_output binding_plot.png
-
 
 Outputs:
 
